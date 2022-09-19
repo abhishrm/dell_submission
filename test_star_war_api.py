@@ -10,7 +10,7 @@ config = read_config_file(path_config_file)
 main_url = config['configuration_setting']['base_url']
 
 
-
+# @pytest.mark.usefixtures('print_cookies')
 class Test():
 
     @get_time(write_to_file=True)
