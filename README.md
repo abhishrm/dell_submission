@@ -2,10 +2,10 @@
 Only test specific to endpoint /people are covered.
 
 #Test framework structuring:
- 1.conftest.py-> Contains all fixtures and hooks required for test placed in test_star_war_api.py.
- 2.test_star_war_api.py -> This is the main test file which contains all the test related to star war API specific to "people" endpoint.
- 3.commonconfig.ini-> This is an INI file from where some set of congiguration can be read for example urls.
- 4.common_utility.py-> This contains all the common code which can be used at various places in the project.
+ 1.    conftest.py-> Contains all fixtures and hooks required for test placed in test_star_war_api.py.
+ 2.    test_star_war_api.py -> This is the main test file which contains all the test related to star war API specific to "people" endpoint.
+ 3.    commonconfig.ini-> This is an INI file from where some set of congiguration can be read for example urls.
+ 4.    common_utility.py-> This contains all the common code which can be used at various places in the project.
 
 
 ## Summary i.e. what has been covered details mentioned below
